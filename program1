@@ -2,7 +2,7 @@ class Program
 {
  static void Main()
  {
- Console.WriteLine("Привет, GitHub!");
+ Console.WriteLine("Здравствуй, GitHub!");
  }
 }
 git status
@@ -10,3 +10,6 @@ git switch -c feature-greeting
 git status
 git add .
 git commit -m "Изменено приветствие программы"
+git switch main
+git merge feature-greeting
+git log --oneline --graph --all
