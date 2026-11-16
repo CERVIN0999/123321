@@ -7,3 +7,6 @@ class Program
 }
 git status
 git switch -c feature-greeting
+git status
+git add .
+git commit -m "Изменено приветствие программы"
